@@ -32,4 +32,4 @@ export const Profile = ({
   );
 };
 
-console.log(Profile);
+

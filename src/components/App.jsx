@@ -18,7 +18,7 @@
 
 
 
-import { Test } from "./test";
+
 
 import { Profile } from "./profile/profile";
 import user from './profile/user.json';
@@ -30,27 +30,8 @@ import { TransactionHistory } from "./transactions/transactions";
 import transactions from "./transactions/transactions.json"
 
 
-// const Friends = [
-//   { friend: 'Nastya', child: true },
-//   { friend: 'Masha', child: false },
-//   { friend: 'Sasha', child: true },
-//   { friend: 'Maruna', child: false },
-//   {friend: 'Andrey', child: false},
-// ]
 
 
-// export function App() {
-//   return <div><Test />
-    
-//     <TestSecond />
-//     {Friends.map((friend, index) => {
-//       return <Test key={index} friend={friend.friend} child = {friend.child} />
-//     })
-
-//     }
-//   </div>
-  
-// }
 
 
 
@@ -67,8 +48,5 @@ export function App() {
   </>
 }
 
-// export function App() {
-//   return <> <Test />  <Profile />
-//   </>
-// }
+
 
